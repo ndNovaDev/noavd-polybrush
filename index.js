@@ -228,6 +228,7 @@ export default function (d3) {
             dispatch.on(typename, callback);
             return brush;
         };
+        brush.drawPath = drawPath
 
         return brush;
     };
